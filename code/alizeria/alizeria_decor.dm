@@ -1,19 +1,19 @@
 // КАРТИНЫ
 /obj/structure/fluff/walldeco/alizeriapaintings/queen
 	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
-	desc = "Картина первой островной императрицы. С момента её смерти прошли целые века, однако память о том, что именно она виновна в начале войны с демонами - хранится до сих пор."
+	desc = "Картина императрицы-изменницы. Многие фанатики кодекса её проклинают, а некоторые видят в ней объект для подражания. Последние обычно не приветствуются обществом."
 	name = "картина"
 	icon_state = "picture_queen"
 
 /obj/structure/fluff/walldeco/alizeriapaintings/monsters
 	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
-	desc = "Картина троицы основных демонических сил. Имеет определённую популярность среди молодёжи."
+	desc = "Картина троицы основных демонических сил, что существовали ещё до создания империи."
 	name = "картина"
 	icon_state = "picture_monsters"
 
 /obj/structure/fluff/walldeco/alizeriapaintings/muscet
 	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
-	desc = "Картина знаменитой мушкетёрши, которая однажды спасла нашего короля из окружения врага."
+	desc = "Картина знаменитой мушкетёрши, которая дослужилась до личного гвардейца регента Монфора."
 	name = "картина"
 	icon_state = "picture_muscet"
 
@@ -482,6 +482,62 @@
 	icon_state = "wooddecal_4"
 	mouse_opacity = 0
 
+/obj/effect/decal/alizeria/decals/wooddecal1
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_1"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal2
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_2"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal3
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_3"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal4
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_4"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal5
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_5"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal6
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_6"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal7
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_7"
+	mouse_opacity = 0
+
+/obj/effect/decal/alizeria/decals/wooddecal8
+	name = "wood path"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "wooddecal2_8"
+	mouse_opacity = 0
+
 // ЛЮК
 /obj/structure/ladder/alizeria/hatch
 	name = "люк"
@@ -494,3 +550,292 @@
 	desc = ""
 	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
 	icon_state = "hatch3"
+
+
+// САДОВЫЕ ГОРШКИ
+/obj/structure/fluff/walldeco/alizeria/plants1
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants1"
+
+/obj/structure/fluff/walldeco/alizeria/plants2
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants2"
+
+/obj/structure/fluff/walldeco/alizeria/plants3
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants3"
+
+/obj/structure/fluff/walldeco/alizeria/plants4
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants4"
+
+/obj/structure/fluff/walldeco/alizeria/plants5
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants5"
+
+/obj/structure/fluff/walldeco/alizeria/plants6
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants6"
+
+/obj/structure/fluff/walldeco/alizeria/plants7
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants7"
+
+/obj/structure/fluff/walldeco/alizeria/plants8
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	desc = ""
+	name = "садовый горшок"
+	icon_state = "wallplants8"
+
+
+// ОГРАДА
+/obj/structure/fluff/railing/alizeria/stone1
+	icon_state = "stonefence1"
+	blade_dulling = DULLING_BASHCHOP
+	layer = ABOVE_MOB_LAYER
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+
+/obj/structure/fluff/railing/alizeria/stone2
+	icon_state = "stonefence2"
+	blade_dulling = DULLING_BASHCHOP
+	layer = ABOVE_MOB_LAYER
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+
+/obj/structure/fluff/railing/alizeria/stone3
+	icon_state = "stonefence3"
+	blade_dulling = DULLING_BASHCHOP
+	layer = ABOVE_MOB_LAYER
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+
+/obj/structure/fluff/railing/alizeria/stone4
+	icon_state = "stonefence4"
+	blade_dulling = DULLING_BASHCHOP
+	layer = ABOVE_MOB_LAYER
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+
+
+//МОГИЛЫ
+/obj/structure/fluff/statue/alizeria/mogil1
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil1"
+
+/obj/structure/fluff/statue/alizeria/mogil2
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil2"
+
+/obj/structure/fluff/statue/alizeria/mogil3
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil3"
+
+/obj/structure/fluff/statue/alizeria/mogil4
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil4"
+
+/obj/structure/fluff/statue/alizeria/mogil5
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil5"
+
+/obj/structure/fluff/statue/alizeria/mogil6
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	name = "могила"
+	desc = ""
+	icon_state = "mogil6"
+
+
+// СВЕТ
+/obj/machinery/light/rogue/firebowl/alizeria/decor/redlight1
+	desc = "A wide metal bowl mounted on a stand for a healthy roaring flame."
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "credlight1"
+	base_state = "credlight"
+	bulb_colour = "#c21313"
+
+/obj/machinery/light/rogue/firebowl/alizeria/decor/offw/redlight1
+	icon_state = "credlight0"
+	base_state = "credlight"
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	soundloop = null
+	light_on = FALSE
+
+/obj/machinery/light/rogue/firebowl/alizeria/decor/redlight2
+	desc = "A wide metal bowl mounted on a stand for a healthy roaring flame."
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "redlight1"
+	base_state = "redlight"
+	bulb_colour = "#c21313"
+
+/obj/machinery/light/rogue/firebowl/alizeria/decor/offw/redlight2
+	icon_state = "redlight0"
+	base_state = "redlight"
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	soundloop = null
+	light_on = FALSE
+
+/obj/machinery/light/rogue/firebowl/standing/alizeria/decor/red
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "sredlight1"
+	base_state = "sredlight"
+	bulb_colour = "#c21313"
+	desc = "Soft and blue like the blood light."
+
+/obj/machinery/light/rogue/wallfire/candle/alizeria/decor/red
+	name = "candles"
+	desc = "Tiny flames flicker to the slightest breeze and offer enough light to see."
+	icon_state = "wredlight1"
+	base_state = "wredlight"
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	bulb_colour = "#c21313"
+	light_outer_range = 3
+	crossfire = FALSE
+	cookonme = FALSE
+	soundloop = null
+
+/obj/machinery/light/rogue/wallfire/candle/alizeria/decor/red/off
+	name = "candles"
+	desc = "Cold wax sticks in sad half-melted repose. All they need is a spark."
+	icon_state = "wredlight0"
+	base_state = "wredlight"
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	crossfire = FALSE
+	cookonme = FALSE
+	soundloop = null
+	light_on = FALSE
+	on = FALSE
+
+
+// ШТОРЫ
+/obj/structure/alizeria/curtainaliz
+	name = "curtain"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/vladegeg_decor.dmi'
+	icon_state = "shtori_1"
+	alpha = 255 // Mappers can set this to 200 if they want it slightly see-through
+	layer = ABOVE_MOB_LAYER
+	plane = GAME_PLANE_UPPER
+	anchored = TRUE
+	opacity = 0
+	density = FALSE
+
+/obj/structure/alizeria/curtainaliz/purple
+	icon_state = "shtori_2"
+
+/obj/structure/alizeria/curtainaliz/yellow
+	icon_state = "shtori_3"
+
+/obj/structure/alizeria/curtainaliz/green
+	icon_state = "shtori_4"
+
+
+// ЯЩИКИ
+/obj/structure/roguecratesal
+	name = "ящики"
+	desc = ""
+	icon = 'icons/roguetown/alizeria/yashiki.dmi'
+	icon_state = "yashik"
+	var/base_state
+	density = TRUE
+	opacity = FALSE
+	anchored = FALSE
+	var/kover = FALSE
+	drag_slowdown = 2
+	throw_speed = 1
+	throw_range = 1
+	blade_dulling = DULLING_BASHCHOP
+	obj_flags = CAN_BE_HIT
+	climbable = TRUE
+
+/obj/structure/roguecratesal/alizeria/decor/crates1
+	icon_state = "yashik"
+
+/obj/structure/roguecratesal/alizeria/decor/crates2
+	icon_state = "yashik-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates3
+	icon_state = "yashik-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates4
+	icon_state = "yashik-broken"
+
+/obj/structure/roguecratesal/alizeria/decor/crates5
+	icon_state = "yashik1"
+
+/obj/structure/roguecratesal/alizeria/decor/crates6
+	icon_state = "yashik2-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates7
+	icon_state = "yashik2-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates8
+	icon_state = "yashik2-broken"
+
+/obj/structure/roguecratesal/alizeria/decor/crates9
+	icon_state = "yashik3"
+
+/obj/structure/roguecratesal/alizeria/decor/crates10
+	icon_state = "yashik3-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates11
+	icon_state = "yashik3-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates12
+	icon_state = "yashik3-broken"
+
+/obj/structure/roguecratesal/alizeria/decor/crates13
+	icon_state = "yashik4"
+
+/obj/structure/roguecratesal/alizeria/decor/crates14
+	icon_state = "yashik4-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates15
+	icon_state = "yashik4-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates16
+	icon_state = "yashik4-broken"
+
+/obj/structure/roguecratesal/alizeria/decor/crates17
+	icon_state = "stack-yashik"
+
+/obj/structure/roguecratesal/alizeria/decor/crates18
+	icon_state = "stack-yashik-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates19
+	icon_state = "stack-yashik-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates20
+	icon_state = "stack-yashik-broken"
+
+/obj/structure/roguecratesal/alizeria/decor/crates21
+	icon_state = "stack-yashik2"
+
+/obj/structure/roguecratesal/alizeria/decor/crates22
+	icon_state = "stack-yashik2-preopen"
+
+/obj/structure/roguecratesal/alizeria/decor/crates23
+	icon_state = "stack-yashik2-open"
+
+/obj/structure/roguecratesal/alizeria/decor/crates24
+	icon_state = "stack-yashik2-broken"
