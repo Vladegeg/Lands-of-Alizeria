@@ -8,34 +8,26 @@
 
 /// Determines what ends up in the end list of things pickpocket can attempt to steal.
 /datum/intent/steal/proc/can_steal(obj/item/thing, mob/living/carbon/human/target)
-	if (!thing)
+	if(!thing)
 		return FALSE
 
+	var/is_incapacitated = target.IsUnconscious() || !(target.mobility_flags & MOBILITY_STAND)
+
 	// can't steal armored items from someone in combat mode
-	if (isclothing(thing))
+	if(isclothing(thing))
 		var/obj/item/clothing/thing_clothing = thing
-		if (target.cmode && thing_clothing.armor)
-			if (target.IsUnconscious() || !(target.mobility_flags & MOBILITY_STAND))
-				return TRUE
-			else
+		if(target.cmode && thing_clothing.armor)
+			if(target.cmode && thing_clothing.armor && !is_incapacitated)
 				return FALSE
 
 	// can't steal long items (like longswords, spears, etc) unless they're floored or KO'd
-	if (thing.wlength > WLENGTH_NORMAL)
-		if (target.IsUnconscious() || !(target.mobility_flags & MOBILITY_STAND))
-			return TRUE
-		else
-			return FALSE
-
-	// can't steal especially heavy items unless they're floored or KO'd
-	if (thing.w_class > WEIGHT_CLASS_NORMAL)
-		if (target.IsUnconscious() || !(target.mobility_flags & MOBILITY_STAND))
-			return TRUE
-		else
-			return FALSE
-		
+	if(thing.wlength > WLENGTH_NORMAL && !is_incapacitated)
 		return FALSE
 
+	// can't steal especially heavy items unless they're floored or KO'd
+	if(thing.w_class > WEIGHT_CLASS_NORMAL && !is_incapacitated)
+		return FALSE
+		
 	return TRUE
 
 /datum/intent/steal/on_mmb(atom/target, mob/living/user, params)
