@@ -1,9 +1,0 @@
-vladegeg role=admin
-systemcheck role=admin
-psydon role=admin
-moonmagick role=admin
-deathws role=admin
-muaru role=admin
-rogueray role=admin
-vladegegtest role=admin
-evenindeathistillserve role=admin
