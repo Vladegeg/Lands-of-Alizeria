@@ -1,3 +1,0 @@
-<!-- Most valid html will work in here, excluding images. -->
-<center>* Проект находится в стадии разработки *</center>
-<center> О любых багах и недоработках пишите в соответствующий канал </center>
