@@ -182,7 +182,7 @@
 		if(GLOB.lord_titles[used_name])
 			. += span_notice("[m3] получил титул \"[GLOB.lord_titles[used_name]]\".")
 
-		if(src.is_noble_visible())
+		if(is_noble_visible())
 			if(HAS_TRAIT(user, TRAIT_NOBLE))
 				. += span_notice("Ещё один дворянин")
 			else
