@@ -242,15 +242,15 @@
 // Nobles
 #define JDO_LORD 1
 #define JDO_LADY 1.1
-#define JDO_PRINCE 1.2
-#define JDO_KNIGHT 1.3
-#define JDO_SQUIRE 1.4
-#define JDO_BLACKKNIGHT 1.5
+#define JDO_HAND 1.2
+#define JDO_PRINCE 1.3
+#define JDO_KNIGHT 1.4
+#define JDO_SQUIRE 1.5
+#define JDO_BLACKKNIGHT 1.6
 #define JDO_SUITOR 0
-#define JDO_JESTER 1.6
-#define JDO_BUTLER 1.7
-#define JDO_SERVANT 1.8
-#define JDO_HAND 0
+#define JDO_JESTER 1.7
+#define JDO_BUTLER 1.8
+#define JDO_SERVANT 1.9
 #define JDO_COUNCILLOR 0
 
 #define JDO_MARSHGEN 2

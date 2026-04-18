@@ -270,6 +270,17 @@ GLOBAL_LIST_INIT(roleplay_readme, world.file2list("strings/rt/rp_prompt.txt"))
 			to_chat(src, span_boldwarning("You need at least a few words in your OOC notes in order to play."))
 			return
 
+		var/selected = href_list["SelectedJob"]
+		if(selected == "Spymaster")
+			var/found_lord = FALSE
+			for(var/mob/living/carbon/human/H in GLOB.player_list)
+				if(H.mind.assigned_role == "Landowner")
+					found_lord = TRUE
+					break
+			if(!found_lord)
+				to_chat(usr, span_warning("Вы не можете зайти за мастера шпиона без активного правителя в раунде."))
+				return
+
 		AttemptLateSpawn(href_list["SelectedJob"])
 		return
 
