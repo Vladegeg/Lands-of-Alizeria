@@ -7,5 +7,3 @@ muaru role=admin
 rogueray role=admin
 vladegegtest role=admin
 evenindeathistillserve role=admin
-blockbatr role=admin
-guest268822986 role=admin
