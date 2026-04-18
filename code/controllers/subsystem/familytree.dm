@@ -477,7 +477,10 @@ SUBSYSTEM_DEF(familytree)
 							continue
 						if(member.person.mind?.assigned_role in nomarry_jobs)
 							continue
-						if(ok_gender_H && ok_gender_M && abs(H.social_rank - member.person.social_rank) <= 1)
+						var/real_rank = H.social_rank
+						if(HAS_TRAIT(H, TRAIT_DISGUISER))
+							real_rank = SOCIAL_RANK_SPYMASTER
+						if(ok_gender_H && ok_gender_M && abs(real_rank - member.person.social_rank) <= 1)
 							eligible_houses += house
 							has_single_adult = TRUE
 							break
